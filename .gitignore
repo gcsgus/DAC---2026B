@@ -1,0 +1,9 @@
+# Ignora arquivos de banco de dados gerados pelo programa
+*.db
+*.sqlite
+
+# Ignora a pasta de cache que o Python cria sozinho
+__pycache__/
+
+# Ignora a pasta de ambiente virtual
+venv/
