@@ -1,3 +1,7 @@
+# .gitignore
+# lista o que o Git NÃO deve enviar para o github: arquivos de banco de dados
+# gerados pelo programa, pastas temporárias do python e ambientes virtuais.
+
 # Ignora arquivos de banco de dados gerados pelo programa
 *.db
 *.sqlite

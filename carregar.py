@@ -1,3 +1,12 @@
+# ------------------------------------------------------------
+# carregar.py
+# objetivo: conferir os arquivos CSV da pasta "planilhas dos anos".
+# o que faz: lê cada CSV e mostra no terminal o nome do arquivo,
+# a quantidade de linhas e os nomes das colunas.
+# por que existe: serve para reconhecer os dados antes de tratá-los
+# e ver se as colunas são iguais de um ano para o outro.
+# ------------------------------------------------------------
+
 # biblioteca pandas para ler e organizar tabelas
 import pandas as pd 
 # path para trabalhar com pastas e nomes de arquivos

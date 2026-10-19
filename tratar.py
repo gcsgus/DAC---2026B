@@ -1,3 +1,12 @@
+# ------------------------------------------------------------
+# tratar.py
+# objetivo: juntar e limpar os dados da educação pública de MS (2018 a 2026).
+# o que faz: lê todos os CSVs, junta numa tabela só, remove a coluna _id,
+# renomeia as colunas, padroniza município e escola em maiúsculas,
+# converte os indicadores para números e confere linhas e valores vazios.
+# resultado: gera o arquivo dados_tratados.csv, que será usado no banco de dados.
+# ------------------------------------------------------------
+
 import pandas as pd
 from pathlib import Path
 
