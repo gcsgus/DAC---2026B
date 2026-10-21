@@ -11,3 +11,6 @@ __pycache__/
 
 # Ignora a pasta de ambiente virtual
 venv/
+
+# Arquivo com a senha do banco de dados.
+.env

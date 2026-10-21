@@ -10,7 +10,7 @@
 
 import pandas as pd 
 
-dados = pd.read_csv("planilhas dos anos/dados_tratados.csv")  # lê o arquivo gerado pelo tratar.py
+dados = pd.read_csv("dados_tratados.csv")  # lê o arquivo gerado pelo tratar.py
 
 # marca as linhas em que a combinação ano + município + escola aparece mais de uma vez
 # o keep=False faz o pandas mostrar todas as repetidas, e não só as extras

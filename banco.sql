@@ -7,7 +7,7 @@
 -- ------------------------------------------------------------
 
 -- tabela dos municípios.
-CREATE TABLE municipios (
+CREATE TABLE IF NOT EXISTS municipios (
     -- número único de cada município, gerado automaticamente (1, 2, 3...).
     id_municipio INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     -- nome do município. Não pode ficar vazio nem repetir.
@@ -15,7 +15,7 @@ CREATE TABLE municipios (
 );
 
 -- tabela das escolas.
-CREATE TABLE escolas (
+CREATE TABLE IF NOT EXISTS escolas (
     -- número único de cada escola, gerado automaticamente.
     id_escola INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     -- nome da escola. Não pode ficar vazio.
@@ -29,7 +29,7 @@ CREATE TABLE escolas (
 );
 
 -- tabela com os números de cada escola em cada ano.
-CREATE TABLE indicadores_anuais (
+CREATE TABLE IF NOT EXISTS indicadores_anuais (
     -- número único de cada registro, gerado automaticamente.
     id_indicador INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     -- número da escola a que os dados se referem.

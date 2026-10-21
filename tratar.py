@@ -74,4 +74,4 @@ print("quantidade de valores vazios por coluna:")
 print(dados.isna().sum())
 
 # salva a tabela tratada num novo csv, sem a coluna de numeração do pandas 
-dados.to_csv("planilhas dos anos/dados_tratados.csv", index=False, encoding="utf-8-sig")
+dados.to_csv("dados_tratados.csv", index=False, encoding="utf-8-sig")
