@@ -17,7 +17,8 @@ Projeto acadêmico que analisa dados reais de matrículas por unidade escolar da
 - `banco.sql`: cria as três tabelas no PostgreSQL.
 - `conexao.py`: abre a conexão com o banco, lendo a senha do arquivo `.env`.
 - `carregar_banco.py`: preenche as tabelas com os dados de `dados_tratados.csv`.
-- `app.py`: interface web feita com Streamlit.
+- `educacao.py`: classes do projeto. `RepositorioEscolar` busca os dados no banco e `AnaliseEducacional` filtra os dados e calcula as taxas e o resumo.
+- `app.py`: interface web feita com Streamlit, que usa as classes de `educacao.py`.
 - `.gitignore`: lista o que não deve ir para o GitHub (senha, bancos locais e arquivos temporários).
 
 ## Como rodar, caso queira utilizar o site
