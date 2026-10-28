@@ -2,9 +2,6 @@
 
 Projeto acadêmico que analisa dados reais de matrículas por unidade escolar da rede pública de Mato Grosso do Sul e mostra, por município e por período, se a educação está evoluindo, com foco nos indicadores de aprovação e abandono escolar.
 
-**Autor:** [seu nome completo], UCDB
-**Disciplina:** [nome da disciplina e do professor]
-
 ## O que o projeto faz
 
 1. Lê os arquivos CSV de cada ano e junta tudo numa tabela única e padronizada.
