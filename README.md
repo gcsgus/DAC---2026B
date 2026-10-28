@@ -9,6 +9,10 @@ Projeto acadêmico que analisa dados reais de matrículas por unidade escolar da
 3. Carrega os dados do banco para a memória e calcula as taxas de aprovação e de abandono.
 4. Mostra uma página web com filtros por município e por período, gráficos de evolução e um resumo em texto.
 
+## Demonstração do site 
+
+Na pasta `mostrando o site` estão disponíveis um vídeo de demonstração e capturas de tela da interface web do projeto. Esses materiais permitem visualizar o funcionamento do sistema, os filtros por município e período, os gráficos de evolução e o resumo dos indicadores educacionais.
+
 ## Arquivos do projeto
 
 - `carregar.py`: confere os CSVs e mostra o nome das colunas e a quantidade de linhas de cada ano.
